@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Estrutura básica do HTML5</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="HTML5">
+        <meta name="disccription" content="Sobre a estrutura básica do HTML5">
+        <meta name="author" content="Giovana Vieira">
+        <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                
+                <div>
+                      <img src="imagens/Giovana's (1).png" alt="Logo">
+                      
+                
+                      <nav>
+                        <div id="painel-menu">
+                        <input type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    <ul>
+                        <li><a href="reserva.html">Reserva</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="index.html">home</a></li>
+                    </ul>
+                    </div>
+                 </nav>
+                      
+                </div> 
+
+           </header>
+           
+           <div>
+               <h1 id="cadastrese">Cadastre-se</h1>
+             <br>
+             
+             <form id="cadastro">
+                 <fieldset>
+                        <div class="InputBox">
+                     <div>
+                         <input type="text" name="Nome" id="Nome" class="InputNome" required placeholder=" Nome completo">
+                     </div>
+                     <br>
+                     <div>
+                         <input type="text" name="usuario" id="usuario" class="InputUser" required placeholder=" Nome de usuário">
+                     </div>
+                     <br>
+                     <div>
+                        <input type="number" name="cpf" id="cpf" class="InputCpf" required placeholder=" CPF">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="text" name="Endereco" id="Endereco" class="InputEnd" required placeholder=" Endereço completo">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="password" name="Senha" id="Senha" class="InputSenha" required placeholder=" Senha">
+                        <input type="password" name="ConfSenha" id="ConfSenha" class="InputConfSenha" required placeholder=" Confirme a Senha">
+                    </div>
+                    <br>
+                    <button class="Cadastrar">Cadastrar</button>
+                </div>
+
+                    
+                 </fieldset>
+
+                
+             </form>
+               
+
+           </div>
+        
+    </body>
